@@ -14,5 +14,5 @@
 
 ## Deploy links
 
--backend Deployed Link - https://quizapplication-3u70.onrender.com
--Frontend Deployed Link - https://elaborate-bunny-7e1aa2.netlify.app
+-backend Deployed Link : https://quizapplication-3u70.onrender.com
+-Frontend Deployed Link : https://elaborate-bunny-7e1aa2.netlify.app
