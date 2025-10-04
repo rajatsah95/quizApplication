@@ -3,9 +3,11 @@ const cors = require('cors');
 const quizRoutes = require('./routes/quizRoutes');
 
 const app = express();
-app.use(cors({origin:"https://emaildetailer.netlify.app"}));
+app.use(cors({origin:"http://localhost:3000"}));
 app.use(express.json());
-
+ app.get('/', (req, res) => {
+  res.send('🚀 Quiz Application Backend is running');
+});
 app.use('/api/quizzes', quizRoutes);
 
 const PORT = 5000;
