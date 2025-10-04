@@ -3,7 +3,7 @@ const cors = require('cors');
 const quizRoutes = require('./routes/quizRoutes');
 
 const app = express();
-app.use(cors({origin:"http://localhost:3000"}));
+app.use(cors({origin:"https://elaborate-bunny-7e1aa2.netlify.app"}));
 app.use(express.json());
  app.get('/', (req, res) => {
   res.send('🚀 Quiz Application Backend is running');
